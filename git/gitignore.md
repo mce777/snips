@@ -1,4 +1,4 @@
-Common file-types for your **.gitignore** file
+###Common file-types for your **.gitignore** file
 
 /node_modules
 
