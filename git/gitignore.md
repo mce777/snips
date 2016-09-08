@@ -1,4 +1,4 @@
-###**.gitignore** these files
+###**.gitignore** these files/folders
 
 /node_modules
 
