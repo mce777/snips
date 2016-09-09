@@ -5,4 +5,4 @@
 
 **run this for chai-->**./node_modules/.bin/typings install npm~chai --save
 
-more info here: https://github.com/typings/typings
+Other examples and more info here: https://github.com/typings/typings
