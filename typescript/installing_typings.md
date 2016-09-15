@@ -7,4 +7,4 @@
 
 Other examples and more info here: https://github.com/typings/typings
 
-If the installation is not successful, check the details of the error message.
+**If the installation is not successful, check the details of the error message.
