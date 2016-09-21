@@ -1,0 +1,32 @@
+/* the minimum */
+
+@media print {
+   body {
+      color: #000;
+      background: #fff;
+   }
+   
+    h1 {
+      color: #000;
+      background: none;
+   }
+
+   nav, aside {
+      display: none;
+   }
+   
+    @page {
+      margin: 2cm;
+   }
+   
+    /* won't print relative URLs */
+    article a {
+      font-weight: bolder;
+      text-decoration: none;
+   }
+    /* will print external URLs */
+   article a[href^=http]:after {
+      content:" <" attr(href) "> ";
+   }
+   
+}
