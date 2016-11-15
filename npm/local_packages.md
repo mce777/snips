@@ -1,4 +1,4 @@
 # installing local packages
 
 # uninstalling local packages
-npm uninstall nameofpackage
+`npm uninstall nameofpackage`
