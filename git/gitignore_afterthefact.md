@@ -5,7 +5,7 @@
 3. now run this: `git rm -r --cached .`
 4. then run this: `git add .`
 5. then run this: `git commit -m ".gitignore updated"`
-6. lastly run this: `git push`
+6. lastly, run this: `git push`
 
 Source:
 http://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository
