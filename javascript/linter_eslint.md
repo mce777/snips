@@ -11,9 +11,10 @@ In the terminal, select **Answer Questions...** and follow the instructions. At 
 In the `package.json`, under **Scripts**,  add `"lint:js": "./node_modules/.bin/eslint ./lib/components/**/*.js"`
 
 ##Configuration Details
+eslint has some issues with React, so add this to the config file:
 <pre>
  "rules": {
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2
   }
 </pre>
