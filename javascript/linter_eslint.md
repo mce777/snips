@@ -6,4 +6,4 @@ http://eslint.org/docs/user-guide/getting-started
 
 config setup: `./node_modules/.bin/eslint --init`
 
-In the terminal, select **Answer Questions...** and follow the instructions. At the end you will have `.eslintrc.json` config file set up for you
+In the terminal, select **Answer Questions...** and follow the instructions. At the end you will have `.eslintrc.json` config file set up for you.
