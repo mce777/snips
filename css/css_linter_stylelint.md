@@ -7,9 +7,9 @@ Then, then a standard config
 ##Config Setup
 Now create the file `.stylelintrc.json` and copy/paste the following which will hook up the standard config:
 
-```{
+<pre>{
   "extends": "stylelint-config-standard"
-}```
+}</pre>
 
 *Note: you can add, and probably should add custom rules after this (see 'rules' link below).*
 
