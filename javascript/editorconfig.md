@@ -1,5 +1,5 @@
 ##Setting up EditorConfig
-Webstorm has built-in support for it, so no configuration needed there.
+Webstorm has built-in support for it, so the setup is simple and painless.
 
 Setup consists of creating a `.editorconig`file in your project's root diretory.
 
