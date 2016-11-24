@@ -1,4 +1,4 @@
-##include these files/folders in **.gitignore** 
+##include these files/folders in '**.gitignore**'
 /node_modules
 
 .DS_Store
