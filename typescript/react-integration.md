@@ -13,6 +13,7 @@ Work in progess...
 </pre>
 
 **You're gonna want to create some "react-to-typescript-definitions"**
+
 Typings, remember those? Anyway, install this:
 
 `npm install react-to-typescript-definitions --save-dev`
