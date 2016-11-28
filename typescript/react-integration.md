@@ -26,3 +26,5 @@ Ok, now it's probably not a bad idea to create a shell script (eg `whatever.sh`)
 
 cat ./lib/components/atoms/button/Button.jsx | ./node_modules/.bin/react2dts --name "currstyles/lib/components/atoms/button/Button" >> ./components.d.ts
 </pre>
+
+Just add a new line for each additional component. When you're done, run `./createTypings.sh`. This will spit out the result here: `components.d.ts` (or whatever file you specified in the shell script). 
