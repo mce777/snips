@@ -1,4 +1,4 @@
-Brief instructions on installing the **oh my ZSH** command line thingy with all those nice keyboard shortcuts and pretty colors.
+How to install the **oh my ZSH** command line thingy with all those nice keyboard shortcuts and pretty colors.
 
 ##Installation
 https://github.com/robbyrussell/oh-my-zsh/wiki
