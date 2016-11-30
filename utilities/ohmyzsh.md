@@ -3,7 +3,7 @@ How to install the **oh my ZSH** command line thingy with all those nice keyboar
 ##Installation
 https://github.com/robbyrussell/oh-my-zsh/wiki
 
-(make zsh default, then install oh my zsh on top of it)
+In short, make **zsh** the default. Then install **oh-my-zsh** on top of it.
 
 
 ##Plugins
