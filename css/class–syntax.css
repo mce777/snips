@@ -1,0 +1,8 @@
+/* note this syntax. You add the style below to anything with the "partofclassname". */
+/* eg "box_1", "box_2" */
+
+[class^="partofclassname_"] {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
