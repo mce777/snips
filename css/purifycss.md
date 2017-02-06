@@ -10,7 +10,7 @@ Then run something like this...
 
 In other words...
 
-purifycss cssyouwanttocheck.css occurancesinthisfile.hmtl --min --info src/dist/outputfile.css
+`purifycss cssyouwanttocheck.css occurancesinthisfile.hmtl --min --info src/dist/outputfile.css`
 
 You can also run it on multiple css files at once. Just add the file(s) with a space BEFORE the `occurancesinthisfile.html`.
 
