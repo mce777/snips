@@ -12,6 +12,6 @@ In other words...
 
 `purifycss cssyouwanttocheck.css occurancesinthisfile.hmtl --min --info src/dist/outputfile.css`
 
-You can also run it on multiple css files at once. Just add the file(s) with a space BEFORE the `occurancesinthisfile.html`.
+You can also run it on multiple css files at once. Just add the file(s) with a space BEFORE the `occurancesinthisfile.html`, which btw can also be a javascript file.
 
 More info here: https://github.com/purifycss/purifycss
