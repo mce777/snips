@@ -6,3 +6,21 @@
   height: 150px;
   float: left;
 }
+
+/* or this example */
+/*any class with the string "circle" will get the following style*/
+[class^="circle"] {
+    width: 200px;
+    height: 200px;
+}
+
+/*the following circles have some of their own styles*/
+.circle-2 {
+    border: dashed red;
+    border-radius: 50%;
+}
+
+.circle-3 {
+    border: dashed blue;
+    border-radius: 50%;
+}
