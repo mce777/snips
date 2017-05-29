@@ -1,4 +1,4 @@
-##Showing (or hiding again) hidden files in Finder
+##Showing (or hiding again) hidden files in Finder##
 
 By default, Finder hides certain filetypes (e.g. .git, .babelrc).
 
