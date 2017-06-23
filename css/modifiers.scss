@@ -1,0 +1,41 @@
+// basic nesting
+.parent {
+  .child {}
+}
+
+// The & always refers to the parent selector when nesting.
+.some-class {
+  &.another-class {}
+}
+
+.button {
+  &:visited { }
+  &:hover { }
+  &:active { }
+}
+
+// Using the & with the child combinator >, adjacent sibling combinator +, and the general sibling combinator ~ is a breeze. At first I thought you had to use the &, but:
+// You don't actually have to do this.
+// Here, the ampersand is implied.
+.button {
+  & > span { }
+  & + span { }
+  & ~ span { }
+}
+
+// This compiles the same as above
+.button {
+  > span { }
+  + span { }
+  ~ span { }
+}
+
+// Modifying the ampersand
+// Even though you can't have two ampersands touching without the interpolation brackets — as we demoed earlier in our pseudo class example — you can have another selector touch the ampersand. Touching the ampersand works well with modifier classes.
+.btn {
+  &-primary {}
+  &-secondary {}
+}
+// compiled css
+.btn-primary {}
+.btn-secondary {}
