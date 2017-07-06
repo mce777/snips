@@ -1,4 +1,4 @@
-The main issue with using rem for font sizing is that the values are somewhat difficult to use. Let’s see an example of some common font sizes expressed in rem units, assuming, of course, that the base size is 16px:
+The main issue with using rem for font sizing is that the values are somewhat difficult to use. Let’s see an example of some common font sizes expressed in rem units, assuming, of course, that the base size is **16px:**
 
 - 10px = 0.625rem
 - 12px = 0.75rem
