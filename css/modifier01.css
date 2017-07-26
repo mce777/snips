@@ -1,0 +1,11 @@
+//note how the opacity modifier drills down to input__inner, and also to input-addon
+
+.input-addon-wrap {
+	display: flex;
+	z-index: 2;
+	&--opacity {
+		.input-addon__inner .input__inner, .input-addon {
+			background-color: hsla(0,0%,100%,.9);
+		}
+	}
+}
