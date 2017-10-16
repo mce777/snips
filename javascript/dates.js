@@ -13,6 +13,7 @@ console.log(tdate) // 2001.01.30
 const xtr = new Date(tdate);
 const qiu = xtr.getFullYear()
 console.log(qiu); // 2001
+console.log(xtr.getDate()); // 30
 
 const monthNames = ["January", "February", "March", "April", "May", "June",
 	"July", "August", "September", "October", "November", "December"
