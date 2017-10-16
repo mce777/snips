@@ -11,7 +11,7 @@ tdate = [tdate.slice(-4), tdate.slice(0,5)].join('.');
 console.log(tdate) // 2001.01.30
 
 const xtr = new Date(tdate);
-const qiu = xtr.getFullYear()
+const qiu = xtr.getFullYear();
 console.log(qiu); // 2001
 console.log(xtr.getDate()); // 30
 
