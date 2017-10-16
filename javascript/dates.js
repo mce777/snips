@@ -15,6 +15,7 @@ const qiu = xtr.getFullYear()
 console.log(qiu); // 2001
 console.log(xtr.getDate()); // 30
 
+// gotta write 'em out here cuz vanilla only returns 0-11
 const monthNames = ["January", "February", "March", "April", "May", "June",
 	"July", "August", "September", "October", "November", "December"
 ];
