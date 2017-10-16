@@ -1,9 +1,9 @@
 // FUN WITH DATES
-// note the format. This works
+// note the format. This works!
 const newvar = new Date(Date.parse("2005.07.08"))
 newvar
 
-// the format here is not a date format js can work with
+// But this below is not a date format js can work with
 let tdate = '01.30.2001';
 // so we slice
 tdate = [tdate.slice(-4), tdate.slice(0,5)].join('.');
