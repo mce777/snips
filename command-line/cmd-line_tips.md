@@ -11,3 +11,5 @@
 `mv oldfile.js newname.js` rename file, or overwrite target file
 
 `cd` by itself will send you to the root
+
+`ctrl + R` search your command-line history
