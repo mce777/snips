@@ -1,4 +1,4 @@
-1. create a new folder and cd to it in the terminal
+1. create a new folder and **cd** to it in the terminal
 
 2. `git init .`
 
