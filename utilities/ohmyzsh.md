@@ -1,12 +1,13 @@
 How to install the **oh my ZSH** command line thingy with all those nice keyboard shortcuts and pretty colors.
 
-##Installation
+## Installation
 https://github.com/robbyrussell/oh-my-zsh/wiki
+https://github.com/robbyrussell/oh-my-zsh
 
-In short, make **zsh** the default. Then install **oh-my-zsh** on top of it.
+In short, make **zsh** the default (first link). Then install **oh-my-zsh** on top of it (second link).
 
 
-##Plugins
+## Plugins
 run this: `nano ~/.zshrc`
 
 Edit this line to make plugins available to you:
