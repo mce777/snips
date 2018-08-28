@@ -5,6 +5,6 @@ article p {
   hyphens: auto;
 }
 
-always on: **<pre>&#x2010;</pre>** (literally a "-".
+always on: **`&#x2010;`** (literally a "-").
 
-invisible, "soft" hyphen: **<pre>&shy;</pre>**
+invisible, "soft" hyphen. A suggestion where word could break: **`&shy;`**
