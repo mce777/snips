@@ -5,6 +5,6 @@ article p {
   hyphens: auto;
 }
 
-always on: **"&#x2010;"** (literally a "-".
+always on: **<pre>&#x2010;</pre>** (literally a "-".
 
-invisible, "soft" hyphen: **"&shy;"**
+invisible, "soft" hyphen: **<pre>&shy;</pre>**
