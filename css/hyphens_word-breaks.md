@@ -1,8 +1,6 @@
+let browser decide: 
 ```
 article p {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
   hyphens: auto;
 }
 ```
