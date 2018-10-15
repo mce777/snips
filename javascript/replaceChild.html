@@ -1,0 +1,14 @@
+<div>first stuff</div>
+
+<button onClick="xyz()">clickme</button>
+
+<script>
+  var el = document.querySelector('div');
+
+  var newEl = document.createElement('p');
+  newEl.innerHTML = '<b>Hello World!</b>';
+
+  function xyz() {
+    el.parentNode.replaceChild(newEl, el);
+  }
+</script>
