@@ -14,7 +14,7 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
         var elementId = location.hash.replace('#','');
         var scrollToElement = document.getElementById(elementId);
         scrollToElement.scrollIntoView(true);
-      }
+    }
   }
 }
 
