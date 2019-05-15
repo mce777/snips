@@ -8,3 +8,8 @@
 2. make sure the master branch is up to date (do a git pull)
 3. go back to your feature branch
 4. run `git rebase master` (note: -i flag makes it interactive)
+
+## case 3: you want to interactively revise your commit history
+1. `git rebase -i HEAD~4` go back 4 commits, or however many you need
+2. `fixup` or `squash` your commits as desired
+3. when you're done, `git push --force-with-lease`
