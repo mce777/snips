@@ -1,4 +1,4 @@
-A mongodb running locally (via `mongod`) needs the correct permissions, etc. 
+A mongodb running locally (via `mongod`) needs the correct permissions, etc. So go to the root directory and run the following: 
 
 Step 1: `sudo mkdir -p /data/db`
 
