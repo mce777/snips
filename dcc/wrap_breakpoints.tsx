@@ -1,7 +1,7 @@
 <Container
   wrap={{
-           [Breakpoints.default]: ContainerWrap.always,
-           [Breakpoints.b560]: ContainerWrap.never
-	>
-	{button}
+    [Breakpoints.default]: ContainerWrap.always,
+    [Breakpoints.b560]: ContainerWrap.never
+>
+  {button}
 </Container>
