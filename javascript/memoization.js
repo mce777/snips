@@ -15,7 +15,7 @@ function demoMemo(func){
     //the user inputs into our function expression, we then write...   
     return function(){     
        var key = JSON.stringify(arguments);
-       if (cash[key]){
+       if (cache[key]){
         return cache[key];
      }
     
@@ -29,7 +29,7 @@ function demoMemo(func){
       //if the argument is the same, we simply return 
       //the value without having to have the function execute.
       
-      cash[key] = val;
+      cache[key] = val;
       return val;
     }
 }
