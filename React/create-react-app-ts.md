@@ -1,4 +1,4 @@
-#create-react-app with TypeScript
+## create-react-app with TypeScript
 
 `npx create-react-app reallyNiceName --typescript`
 
