@@ -11,6 +11,6 @@ run this: `nano ~/.zshrc`
 Edit this line to make plugins available to you:
 `plugins=(git node nvm npm zsh-syntax-highlighting)`
 
-**ZSH-Syntax-Highlighting (requires extra step**: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md (see the oh-my-zsh section).
+**ZSH-Syntax-Highlighting (requires extra step)**: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md (see the oh-my-zsh section).
 
 More plugins here: https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins
