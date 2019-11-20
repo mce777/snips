@@ -1,10 +1,9 @@
 How to install the **oh my ZSH** command line thingy with all those nice keyboard shortcuts and pretty colors.
 
 ## Installation
-https://github.com/robbyrussell/oh-my-zsh/wiki
 https://github.com/robbyrussell/oh-my-zsh
 
-In short, make **zsh** the default (first link). Then install **oh-my-zsh** on top of it (second link).
+In short, make **zsh** the default. Then install **oh-my-zsh** on top of it. You will need Homebrew
 
 
 ## Plugins
