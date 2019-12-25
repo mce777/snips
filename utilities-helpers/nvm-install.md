@@ -6,6 +6,7 @@
 
 Then add these two lines in your ~/.zshrc: 
 ```
+# required for nvm
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 ```
