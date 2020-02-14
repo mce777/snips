@@ -1,4 +1,4 @@
-##How to retroactively **.gitignore** files & folders
+## How to retroactively **.gitignore** files & folders
 
 1. do a regular commit to **make sure your repo is up to date**!
 2. add files/folders to your **.gitignore** file
