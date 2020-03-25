@@ -13,6 +13,7 @@ bind attributes dynamically or pass props
 <a :[key]="url"> ... </a>
 ```
 
-**Other**<br /> 
+**Others**<br /> 
 :class<br /> 
-:style
+:style<br>
+:key
