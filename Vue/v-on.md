@@ -11,6 +11,9 @@ v-on is great for binding to events like click and mouseenter. You're able to pa
 *shorthand*
 ```
 <button @click="addToCart">
+
+<!-- shorthand w/ dynamic argument (2.6.0+) -->
+<a @[event]="doSomething"> ... </a>
 ```
 
 **Other**<br />

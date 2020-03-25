@@ -2,16 +2,16 @@
 
 bind attributes dynamically or pass props
 
-**v-bind**
+```
+<!-- full syntax -->
+<a v-bind:href="url"> ... </a>
 
-````
-<a v-bind:href="url">...</a>
-````
+<!-- shorthand -->
+<a :href="url"> ... </a>
 
-*shorthand:*
-````
-<a :href="url">...</a>
-````
+<!-- shorthand with dynamic argument (2.6.0+) -->
+<a :[key]="url"> ... </a>
+```
 
 **Other**<br /> 
 :class<br /> 
