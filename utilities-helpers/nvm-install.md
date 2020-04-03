@@ -10,3 +10,6 @@ Then add these two lines in your ~/.zshrc:
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 ```
+
+If permission is denied, this may help:
+`sudo chown -R $(whoami):admin /usr/local/* && sudo chmod -R g+rwx /usr/local/*`
