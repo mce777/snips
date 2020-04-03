@@ -11,5 +11,5 @@ export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 ```
 
-If permission is denied, this may help:
+If permission is denied, this may help:<br>
 `sudo chown -R $(whoami):admin /usr/local/* && sudo chmod -R g+rwx /usr/local/*`
