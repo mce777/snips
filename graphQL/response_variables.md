@@ -1,5 +1,6 @@
 ## response
 - network tab
+- find the admin query you need
 - copy the response: this will show you the `response object` which you can then paste into your mock
 
 ## variables
