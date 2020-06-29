@@ -5,3 +5,5 @@
 - run `yarn generate`
 - import the query into your vue file
 - create type based on the query and the levels of the query:<br>`type nameOfType = NameOfGeneratedQuery['thirdParties'][items'][number]`
+
+examples: ContractAccount, ThirdPartyAutoComplete
