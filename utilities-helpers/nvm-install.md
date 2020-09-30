@@ -2,7 +2,7 @@
 
 1. `brew update`
 2. `brew install nvm`
-3. `mkdir ~/.nvm` (if it's not already there)
+3. `mkdir ~/.nvm` (in your user root, if it's not already there)
 
 Then add these two lines in your ~/.zshrc: 
 ```
