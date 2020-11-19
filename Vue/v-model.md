@@ -6,9 +6,9 @@ Creates a relationship between the `data` in the **instance/component** and a `f
 
 v-model internally uses different properties and emits different events for different input elements:
 
-- `text` and `textarea` elements use `value` **property** and `input` **event**;<br>
-- `checkboxes` and `radiobuttons` use `checked` **property** and `change` **event**;
-- `select` fields use `value` as a **property** and `change` as an **event**.
+- `text` and `textarea` elements use *value*` **property** and `input` **event**;<br>
+- `checkboxes` and `radiobuttons` use *checked* **property** and `change` **event**;
+- `select` fields use *value* as a **property** and `change` as an **event**.
 
 **Modifiers**
 
