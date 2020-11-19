@@ -8,7 +8,7 @@ v-model internally uses different properties and emits different events for diff
 
 - `text` and `textarea` elements use `value` **property** and `input` **event**;<br>
 - `checkboxes` and `radiobuttons` use `checked` **property** and `change` **event**;
-- `select` fields use `value` as a prop and `change` as an event.
+- `select` fields use `value` as a **property** and `change` as an **event**.
 
 **Modifiers**
 
