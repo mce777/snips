@@ -1,1 +1,1 @@
-**Hyperscript** itself stands for “script that generates HTML structures”.
+**Hyperscript** itself stands for `“script that generates HTML structures”`.
