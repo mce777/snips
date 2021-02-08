@@ -8,6 +8,6 @@
 
 5. create a new repo on github (chose SSH option if you can)
 
-6. find **"or push existing repository from cmd-line"** and run those 2 commands
+6. find **"or push existing repository from cmd-line"** and run those commands
 
 7. done
