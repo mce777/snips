@@ -1,0 +1,12 @@
+.button {
+  background: linear-gradient(to right, #732FDF, #BD00FF);
+}
+
+.handle {
+  background:
+    radial-gradient(circle at 25%,
+      #D8D7D7 0%, #626262 40%,
+      #646464 70%, #FFFFFF 100%,
+    );
+}
+    
