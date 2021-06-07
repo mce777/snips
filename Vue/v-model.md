@@ -10,7 +10,7 @@ v-model internally uses different properties and emits different events for diff
 - `checkboxes` and `radiobuttons` use *checked* **property** and `change` **event**;
 - `select` fields use *value* as a **property** and `change` as an **event**.
 
-**Modifiers**
+## Modifiers
 
 **v-model.trim** will strip any leading or trailing whitespace from the bound string
 
