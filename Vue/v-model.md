@@ -1,6 +1,6 @@
 # V-Model (forms)
 
-Creates two-way data-binding (input <--> data). For reference, `v-bind` for one-way data-binding.
+Creates two-way data-binding `input <--> data`. For reference, `v-bind` for one-way data-binding.
 
 Creates a relationship between the `data` in the **instance/component** and a `form input`, so you can dynamically update values
 
