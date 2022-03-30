@@ -1,6 +1,8 @@
 # Binding
 
-bind attributes dynamically or pass props
+Bind attributes via **data** or **props**.
+
+This is **one-way** data-binding (for two-way, see v-model).
 
 ```
 <!-- full syntax -->
