@@ -34,3 +34,5 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 ```
+
+source: https://gist.github.com/cooperwfloyd/51ce7748dba37d14dbabf5e942a2b4bb
