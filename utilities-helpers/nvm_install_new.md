@@ -1,5 +1,13 @@
+## NVM (Node Version Manager) fresh install
+
 This is the new config for ohmyzsh (.zshrc) that was needed after the update to Mac OS Monterey (April 2022)
 
+1. `brew update`
+2. `brew install nvm`
+3. `mkdir ~/.nvm` (in your user root, if it's not already there)
+
+```
+# this is in .zshrc
 # Load nvm
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -25,3 +33,4 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+```
