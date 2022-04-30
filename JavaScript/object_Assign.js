@@ -28,7 +28,8 @@ function test() {
   console.log(JSON.stringify(obj1)); // { a: 1, b: { c: 3}}
   console.log(JSON.stringify(obj2)); // { a: 2, b: { c: 3}}
   
-  // Deep Clone (note how changes to orig. reference values affect new object
+  // Deep Clone!!!
+  // note how changes to orig. reference values have NO affect on new object
   obj1 = { a: 0 , b: { c: 0}};
   let obj3 = JSON.parse(JSON.stringify(obj1));
   obj1.a = 4;
