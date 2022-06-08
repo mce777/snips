@@ -56,4 +56,19 @@ Finally, add the script to package.json, and after that, we can run the tests wi
 
 test should run now.
 
+```
+// src/components/HelloWorld.spec.ts
+import { mount } from '@vue/test-utils'
+import HelloWorld from './HelloWorld.vue'
+
+describe('HelloWorld', () => {
+  it('should display header text', () => {
+    const msg = 'Hello Vue 3'
+    const wrapper = mount(HelloWorld, { props: { msg } })
+
+    expect(wrapper.find('h1').text()).toEqual(msg)
+  })
+})
+```
+
 source: https://dev.to/vuesomedev/add-testing-to-vite-4b75
