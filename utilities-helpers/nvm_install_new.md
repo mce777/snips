@@ -36,3 +36,8 @@ load-nvmrc
 ```
 
 source: https://gist.github.com/cooperwfloyd/51ce7748dba37d14dbabf5e942a2b4bb
+
+### Additionally needed this (11/2022)
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh`
+
+https://bobbyhadz.com/blog/nvm-command-not-found
