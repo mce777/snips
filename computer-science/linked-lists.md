@@ -1,0 +1,2 @@
+- `singly`: 1 reference, can only go forward
+- `doubly`: 2 references, can go forwards and backwards
