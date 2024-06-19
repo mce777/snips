@@ -11,3 +11,4 @@
 
 ### Basic Vim
 - `dd`: delete line
+- `20dd`: delete the next 20 lines
