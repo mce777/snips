@@ -1,6 +1,6 @@
-## Creating a new repo on Github
+# Creating a new repo on Github
 
-#### On your machine
+## On your machine
 1. create a new folder and **cd** to it in the terminal
 
 2. `git init .`
@@ -9,7 +9,7 @@
 
 4. `git commit -m "initial commit"`
 
-#### On Github   
+## On Github   
 
 1. Go to `Repositories` and create a new repo (chose SSH option if you can)
 
