@@ -1,4 +1,4 @@
-## DefineExpose
+## Functions from Child Components via DefineExpose
 
 When you want to call functions in the child component _from_ the parent.
 
@@ -16,7 +16,8 @@ const sampleFn = async () => {
   <ChildComponent ref="myNiceRef" @change="otherFunction" />
 </template>
 ```
-```
+
+```ts
 // Child Component
 function functionInTheChildComponent() {
   console.log('hello there')
