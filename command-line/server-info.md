@@ -1,4 +1,3 @@
-`curl -s -I duckduckgo.com | grep Server`
 `curl -s -I duckduckgo.com`
 
 `wget --save-headers duckduckgo.com`
