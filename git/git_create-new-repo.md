@@ -1,7 +1,7 @@
 # Creating a new repo on Github
 
 ## On your machine
-1. create a new folder and **cd** to it in the terminal
+1. create a new folder and **cd** to it in the terminal (or **cd** into an existing one).
 
 2. `git init .`
 
