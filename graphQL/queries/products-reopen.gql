@@ -1,0 +1,9 @@
+query {
+    products {
+        items {
+            name
+            id
+            allowReopen
+        }
+    }
+}

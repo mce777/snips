@@ -1,0 +1,569 @@
+fragment personalData on PersonalDatum {
+  id
+  academicDegree
+  company
+  dateOfBirth
+  dateOfBirthDecorated
+  firstname
+  gender
+  genderDecorated
+  maritalStatus
+  maritalStatusDecorated
+  name
+  __typename
+}
+fragment canCanAbilities on CanCanAbilities {
+  allowedActions
+  disallowedActions
+  __typename
+}
+query mutations($id: Int) {
+  mutations(id: $id) {
+    total
+    items {
+      id
+      canCanAbilities {
+        ...canCanAbilities
+        __typename
+      }
+      confirmationDataDecorated {
+        ... on ConfirmationDataPolicyChange {
+          premiumDecorated
+          __typename
+        }
+        __typename
+      }
+      createdAt
+      createdAtDecorated
+      mutable {
+        __typename
+        ... on Contract {
+          id
+          contractIdentifier
+          productDatum {
+            __typename
+            ... on CarInsuranceProduct {
+              id
+              tariff
+              tariffDecorated
+              insuranceCover
+              insuranceCoverDecorated
+              changedInsurance
+              changedInsuranceDecorated
+              hsn
+              tsn
+              previousInsuranceNumber
+              previousInsurance {
+                id
+                name
+                __typename
+              }
+              policyholderAddress {
+                street
+                housenumber
+                zip
+                city
+                countryCode
+                __typename
+              }
+              maxKmPerYear
+              carBrand
+              carModel
+              carPower
+              carPowerDecorated
+              evbTransmissionStatus
+              evbTransmissionRejectionReason
+              authorizedDriverGroup
+              authorizedDriverGroupDecorated
+              dateOfBirthOldestDriver
+              dateOfBirthOldestDriverDecorated
+              dateOfBirthYoungestDriver
+              dateOfBirthYoungestDriverDecorated
+              accompaniedDrivingOldestDriver
+              accompaniedDrivingOldestDriverDecorated
+              accompaniedDrivingYoungestDriver
+              accompaniedDrivingYoungestDriverDecorated
+              deductibleFullyComprehensive
+              deductibleFullyComprehensiveDecorated
+              deductiblePartialComprehensive
+              deductiblePartialComprehensiveDecorated
+              workshopAffiliation
+              workshopAffiliationDecorated
+              noClaimsClassLiability
+              noClaimsClassLiabilityDecorated
+              noClaimsClassLiabilityIntern
+              noClaimsClassLiabilityInternDecorated
+              noClaimsClassFullyComprehensive
+              noClaimsClassFullyComprehensiveDecorated
+              noClaimsClassFullyComprehensiveIntern
+              noClaimsClassFullyComprehensiveInternDecorated
+              regionalClassLiability
+              regionalClassFullyComprehensive
+              regionalClassPartiallyComprehensive
+              typeClassLiability
+              typeClassFullyComprehensive
+              typeClassPartiallyComprehensive
+              initialRegistrationOn
+              initialRegistrationOnDecorated
+              registrationOn
+              registrationOnDecorated
+              licensePlate
+              vehicleIdentificationNumber
+              vehicleKeeper {
+                personalDatum {
+                  gender
+                  genderDecorated
+                  firstname
+                  name
+                  dateOfBirth
+                  dateOfBirthDecorated
+                  academicDegree
+                  company
+                  maritalStatus
+                  __typename
+                }
+                address {
+                  street
+                  housenumber
+                  zip
+                  city
+                  countryCode
+                  __typename
+                }
+                __typename
+              }
+              rejectedDecorated
+              fraudCheckDecorated
+              digitalIdentityCheckDecorated
+              __typename
+            }
+            ... on BikeInsuranceProduct {
+              id
+              accessoriesCovered
+              bikeBrand
+              bikeLockCovered
+              bikeLockValue
+              bikeLockValueDecorated
+              bikePurchasedOn
+              bikePurchasedOnDecorated
+              bikeType
+              bikeTypeDecorated
+              bikeValue
+              bikeValueDecorated
+              bikeValueCoveredDecorated
+              compensationRateDecorated
+              breakdownCovered
+              headProtectionCovered
+              headProtectionValue
+              headProtectionValueDecorated
+              insuranceType
+              insuranceTypeDecorated
+              insuredValueDecorated
+              bikeAccessories {
+                id
+                name
+                value
+                valueDecorated
+                __typename
+              }
+              tariff
+              tariffDecorated
+              paymentMethod
+              paymentMethodDecorated
+              dealerPromotionCode
+              documentsDownloadedAt
+              __typename
+            }
+          }
+          __typename
+        }
+        ... on Customer {
+          id
+          personalDatum {
+            ...personalData
+            __typename
+          }
+          __typename
+        }
+      }
+      mutableChangesDecorated {
+        ... on MutableNoClaimsClassChange {
+          noClaimsClassLiability
+          noClaimsClassFullyComprehensive
+          noClaimsClassFullyComprehensiveIntern
+          noClaimsClassLiabilityIntern
+          previousInsuranceNumber
+          vwbPositiveResponseFullyComprehensiveId
+          vwbPositiveResponseLiabilityId
+          __typename
+        }
+        ... on MutablePolicyChange {
+          customerBankDatumAccountHolder
+          customerBankDatumBankName
+          customerBankDatumBic
+          customerBankDatumIban
+          paymentType
+          productDatum {
+            ... on MutableCarInsuranceProduct {
+              accompaniedDrivingOldestDriver
+              accompaniedDrivingOldestDriverDecorated
+              accompaniedDrivingYoungestDriver
+              accompaniedDrivingYoungestDriverDecorated
+              authorizedDriverGroup
+              carBrand
+              carFuelType
+              carModel
+              carPower
+              dateOfBirthOldestDriver
+              dateOfBirthOldestDriverDecorated
+              dateOfBirthYoungestDriver
+              dateOfBirthYoungestDriverDecorated
+              deductibleFullyComprehensive
+              deductibleFullyComprehensiveDecorated
+              deductiblePartialComprehensive
+              deductiblePartialComprehensiveDecorated
+              hsn
+              initialRegistrationOn
+              initialRegistrationOnDecorated
+              insuranceCover
+              insuranceCoverDecorated
+              licensePlate
+              maxKmPerYear
+              noClaimsClassFullyComprehensive
+              noClaimsClassFullyComprehensiveDecorated
+              noClaimsClassLiability
+              noClaimsClassLiabilityDecorated
+              policyholderAddress {
+                street
+                housenumber
+                zip
+                city
+                countryCode
+                __typename
+              }
+              registrationOn
+              tariff
+              tsn
+              vehicleIdentificationNumber
+              vehicleKeeper {
+                personalDatum {
+                  gender
+                  genderDecorated
+                  firstname
+                  name
+                  dateOfBirth
+                  dateOfBirthDecorated
+                  academicDegree
+                  company
+                  maritalStatus
+                  __typename
+                }
+                address {
+                  street
+                  housenumber
+                  zip
+                  city
+                  countryCode
+                  __typename
+                }
+                __typename
+              }
+              workshopAffiliation
+              __typename
+            }
+            ... on MutableBikeInsuranceProduct {
+              accessoriesCovered
+              bikeBrand
+              bikeLockCovered
+              bikeLockValue
+              bikeModel
+              bikePurchasedOn
+              bikeType
+              bikeValue
+              breakdownCovered
+              headProtectionCovered
+              headProtectionValue
+              insuranceType
+              tariff
+              bikeAccessories {
+                id
+                name
+                value
+                __typename
+              }
+              __typename
+            }
+            __typename
+          }
+          __typename
+        }
+        ... on MutableGrading {
+          noClaimsClassFullyComprehensive
+          noClaimsClassFullyComprehensiveIntern
+          noClaimsClassLiability
+          noClaimsClassLiabilityIntern
+          __typename
+        }
+        ... on MutablePolicyRenewalChange {
+          regionalClassFullyComprehensive
+          regionalClassLiability
+          regionalClassPartiallyComprehensive
+          typeClassFullyComprehensive
+          typeClassLiability
+          typeClassPartiallyComprehensive
+          __typename
+        }
+        ... on MutableNoClaimsClassChange {
+          noClaimsClassFullyComprehensive
+          noClaimsClassFullyComprehensiveIntern
+          noClaimsClassLiability
+          noClaimsClassLiabilityIntern
+          previousInsuranceNumber
+          vwbPositiveResponseFullyComprehensiveId
+          vwbPositiveResponseLiabilityId
+          __typename
+        }
+        ... on MutablePolicyPaymentIntervalChange {
+          paymentInterval
+          __typename
+        }
+        ... on MutablePolicyStartOfInsuranceChange {
+          startOfInsurance
+          __typename
+        }
+        ... on MutableTermination {
+          terminatedAt
+          terminatedTo
+          terminationReason
+          toText
+          __typename
+        }
+        ... on MutableDunningState {
+          dunningState {
+            id
+            code
+            title
+            __typename
+          }
+          __typename
+        }
+        __typename
+      }
+      lastValuesDecorated {
+        ... on MutableNoClaimsClassChange {
+          noClaimsClassLiability
+          noClaimsClassFullyComprehensive
+          noClaimsClassFullyComprehensiveIntern
+          noClaimsClassLiabilityIntern
+          previousInsuranceNumber
+          vwbPositiveResponseFullyComprehensiveId
+          vwbPositiveResponseLiabilityId
+          __typename
+        }
+        ... on MutablePolicyChange {
+          customerBankDatumAccountHolder
+          customerBankDatumBankName
+          customerBankDatumBic
+          customerBankDatumIban
+          paymentType
+          productDatum {
+            ... on MutableCarInsuranceProduct {
+              accompaniedDrivingOldestDriver
+              accompaniedDrivingOldestDriverDecorated
+              accompaniedDrivingYoungestDriver
+              accompaniedDrivingYoungestDriverDecorated
+              authorizedDriverGroup
+              carBrand
+              carFuelType
+              carModel
+              carPower
+              dateOfBirthOldestDriver
+              dateOfBirthOldestDriverDecorated
+              dateOfBirthYoungestDriver
+              dateOfBirthYoungestDriverDecorated
+              deductibleFullyComprehensive
+              deductibleFullyComprehensiveDecorated
+              deductiblePartialComprehensive
+              deductiblePartialComprehensiveDecorated
+              hsn
+              initialRegistrationOn
+              initialRegistrationOnDecorated
+              insuranceCover
+              insuranceCoverDecorated
+              licensePlate
+              maxKmPerYear
+              noClaimsClassFullyComprehensive
+              noClaimsClassFullyComprehensiveDecorated
+              noClaimsClassLiability
+              noClaimsClassLiabilityDecorated
+              policyholderAddress {
+                street
+                housenumber
+                zip
+                city
+                countryCode
+                __typename
+              }
+              registrationOn
+              tariff
+              tsn
+              vehicleIdentificationNumber
+              vehicleKeeper {
+                personalDatum {
+                  gender
+                  genderDecorated
+                  firstname
+                  name
+                  dateOfBirth
+                  dateOfBirthDecorated
+                  academicDegree
+                  company
+                  maritalStatus
+                  __typename
+                }
+                address {
+                  street
+                  housenumber
+                  zip
+                  city
+                  countryCode
+                  __typename
+                }
+                __typename
+              }
+              workshopAffiliation
+              __typename
+            }
+            ... on MutableBikeInsuranceProduct {
+              accessoriesCovered
+              bikeBrand
+              bikeLockCovered
+              bikeLockValue
+              bikeModel
+              bikePurchasedOn
+              bikeType
+              bikeValue
+              breakdownCovered
+              headProtectionCovered
+              headProtectionValue
+              insuranceType
+              tariff
+              bikeAccessories {
+                id
+                name
+                value
+                __typename
+              }
+              __typename
+            }
+            __typename
+          }
+          __typename
+        }
+        ... on MutablePolicyPaymentIntervalChange {
+          paymentInterval
+          __typename
+        }
+        ... on MutablePolicyStartOfInsuranceChange {
+          startOfInsurance
+          __typename
+        }
+        ... on MutableTermination {
+          terminatedAt
+          terminatedTo
+          terminationReason
+          toText
+          __typename
+        }
+        ... on MutableDunningState {
+          dunningState {
+            id
+            code
+            title
+            __typename
+          }
+          __typename
+        }
+        ... on MutableGrading {
+          noClaimsClassFullyComprehensive
+          noClaimsClassFullyComprehensiveIntern
+          noClaimsClassLiability
+          noClaimsClassLiabilityIntern
+          __typename
+        }
+        ... on MutablePolicyRenewalChange {
+          regionalClassFullyComprehensive
+          regionalClassLiability
+          regionalClassPartiallyComprehensive
+          typeClassFullyComprehensive
+          typeClassLiability
+          typeClassPartiallyComprehensive
+          __typename
+        }
+        ... on MutableNoClaimsClassChange {
+          noClaimsClassFullyComprehensive
+          noClaimsClassFullyComprehensiveIntern
+          noClaimsClassLiability
+          noClaimsClassLiabilityIntern
+          previousInsuranceNumber
+          vwbPositiveResponseFullyComprehensiveId
+          vwbPositiveResponseLiabilityId
+          __typename
+        }
+        __typename
+      }
+      sourceType
+      source {
+        ... on Admin {
+          id
+          personalDatum {
+            ...personalData
+            __typename
+          }
+          __typename
+        }
+        ... on Agent {
+          id
+          personalDatum {
+            ...personalData
+            __typename
+          }
+          __typename
+        }
+        ... on Customer {
+          id
+          personalDatum {
+            ...personalData
+            __typename
+          }
+          __typename
+        }
+        ... on Employee {
+          id
+          personalDatum {
+            ...personalData
+            __typename
+          }
+          __typename
+        }
+        ... on InterfaceMessage {
+          id
+          messageIdentifier
+          interface
+          __typename
+        }
+        __typename
+      }
+      status
+      statusDecorated
+      type
+      typeDecorated
+      validAt
+      validAtDecorated
+      lastValidAt
+      lastValidAtDecorated
+      __typename
+    }
+    __typename
+  }
+}

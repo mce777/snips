@@ -1,0 +1,19 @@
+query {
+  damageFiles {
+    items {
+      damages {
+         items {
+          documents {
+            items {
+              id
+              title
+              createdAt
+              createdAtDecorated
+            }
+          }
+        }
+        }
+      }
+    }
+}
+  

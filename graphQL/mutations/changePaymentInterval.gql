@@ -1,0 +1,10 @@
+mutation {
+  changePaymentInterval(id: 5, paymentInterval: monthly) {
+    success
+    errors {
+      code
+      field
+      message
+    }
+  }
+}

@@ -1,0 +1,20 @@
+query {
+    contracts(id: 1) {
+        items {
+            productDatum {
+                ... on CarProduct {
+                    id
+                    noClaimsClassLocked
+                }
+            }
+            id
+            type
+            product {
+                name
+                description
+                __typename
+            }
+
+        }
+    }
+}

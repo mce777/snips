@@ -1,0 +1,63 @@
+#################### freeyou ####################
+
+mutation {
+  login(
+    authProvider: {
+      email: {
+        email: "devnull+freeyou-admin@sumcumo.com"
+        password: "FreeYou-admin2016"
+
+        # email: "devnull+freeyou-customer@sumcumo.com"
+        # password: "FreeYou-customer2016"
+
+        # email: "scip-admin@sumcumo.com"
+        # password: "Scip-admin2016"
+        
+        # email: "scip-employee@sumcumo.com"
+        # password: "Scip-employee2016"
+      }
+    }
+  ) {
+    token
+    success
+  }
+}
+
+# Customer
+mutation{
+  login(
+    authProvider: {
+      email: {
+        email: "devnull+freeyou-customer@sumcumo.com",
+        password: "FreeYou-customer2016"
+      }
+    }
+    rememberMe: true
+  ){
+    errors {
+      code
+      field
+      message
+    }
+    success
+    token
+  }
+}
+
+
+#################### SCIP ####################
+
+mutation {
+  login(
+    authProvider: {
+      email: {
+        email: "scip-admin2@sumcumo.com"
+        password: "Scip-admin2016"
+      }
+    }
+  ) {
+    success
+  }
+}
+
+

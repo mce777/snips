@@ -1,0 +1,29 @@
+mutation {
+  login(
+    authProvider: {
+      email: {
+        ################ freeyou ################ 
+        
+        email: "devnull+freeyou-admin@sumcumo.com"
+        password: "FreeYou-admin2016"
+
+        # email: "devnull+freeyou-employee@sumcumo.com"
+        # password: "FreeYou-employee2016"
+
+        # email: "devnull+freeyou-devk@sumcumo.com"
+        # password: "FreeYou-devk2016"
+
+        ################ SCIP ################ 
+
+        # email: "scip-admin@sumcumo.com"
+        # password: "Scip-admin2016"
+        
+        # email: "scip-employee@sumcumo.com"
+        # password: "Scip-employee2016"
+      }
+    }
+  ) {
+    token
+    success
+  }
+}

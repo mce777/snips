@@ -1,0 +1,22 @@
+# the mutation
+mutation UpdateProduct($input: UpdateProductInput!) {
+  updateProduct(product: $input) {
+    id
+    success
+    errors {
+      code
+      field
+      message
+      __typename
+    }
+    __typename
+  }
+}
+
+# the input
+{
+  "input": {
+    "id":1,
+    "allowReopen": true
+  }
+}

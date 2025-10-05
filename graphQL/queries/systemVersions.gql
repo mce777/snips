@@ -1,0 +1,11 @@
+query SystemVersions {
+    systemVersions {
+        items {
+            type
+            version
+            commitHash
+            __typename
+        }
+        __typename
+    }
+}

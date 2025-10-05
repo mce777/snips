@@ -1,0 +1,11 @@
+mutation {
+  lockNoClaimsClass(contractId: 5) {
+    errors {
+      code
+      field
+      message
+    }
+    id
+    success
+  }
+}
