@@ -6,7 +6,7 @@ This is the new config for ohmyzsh (.zshrc) that was needed after the update to 
 2. `brew install nvm`
 3. `mkdir ~/.nvm` (in your user root, if it's not already there)
 
-### The following block goes into your .zshrc file
+### The following block goes into your .zshrc file:
 ```
 # Load nvm
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
