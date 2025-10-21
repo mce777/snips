@@ -5,6 +5,8 @@ You're best off doing it like this:
 This way, you're being explicit and there is little doubt as to what you're resetting to.
 
 ## Restore
-In a related matter... this works as well:
-
 `git restore fileName.xyz`
+
+... or if you've already branched off:
+
+`git restore --source <branch-to-restore-from> <file-path>`
