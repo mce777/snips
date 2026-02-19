@@ -1,0 +1,6 @@
+```css
+.outline-offset {
+  outline: 2px dashed blue;
+  outline-offset: 2px;
+}
+```
