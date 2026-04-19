@@ -23,3 +23,7 @@
 - CMD + CTRL + 1: resolve conflicts
 - CMD + CTRL + 2: rebase
 
+## AI
+- CTRL + I: copilot inline chat
+- CTRL + SHIFT + C: copilot panel chat
+
